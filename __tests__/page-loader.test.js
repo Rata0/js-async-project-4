@@ -1,7 +1,7 @@
 import { test, expect, describe, beforeEach } from '@jest/globals'
-import fs from 'fs/promises'
-import path from 'path'
-import os from 'os'
+import fs from 'node:fs/promises'
+import path from 'node:path'
+import os from 'node:os'
 import nock from 'nock'
 import pageLoader from '../src/page-loader'
 

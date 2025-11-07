@@ -1,7 +1,7 @@
 import axios from 'axios'
-import { URL } from 'url'
-import path from 'path'
-import fs from 'fs/promises'
+import { URL } from 'node:url'
+import path from 'node:path'
+import fs from 'node:fs/promises'
 import generateFileName from './filename-generator.js'
 
 const pageLoader = async (url, outputDir = process.cwd()) => {
